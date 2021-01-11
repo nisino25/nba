@@ -44,7 +44,6 @@
         </div>
       </div>
 
-
       <div class="main">
 
         <div class="herobox">
@@ -118,8 +117,75 @@
           </div>
           
         </div>
-        <div class="main-leftside"></div>
-        <div class="main-rightside"></div>
+        <div class="main-leftside">
+          <div class="section-playWeek"></div>
+          <div class="section-analysis"></div>
+          <div class="section-trending"></div>
+          <div class="section-video-boxscores"></div>
+          <div class="section-features"></div>
+          <div class="section-inside"></div>
+          <div class="section-hangtime"></div>
+          <div class="section milestones"></div>
+        </div>
+
+
+
+
+        <div class="main-rightside">
+          <div class="section-headlines"></div>
+          <div class="section-more-league"></div>
+          <div class="section-standings"></div>
+          <div class="section-leaders"></div>
+          <div class="section-followNBA"></div>
+          <div class="section-links"></div>
+          <div class="section-email"></div>
+        </div>
+      </div>
+
+      <div class="bottom-copyright">
+        <div class="copy-top">
+          <div class="copy-col">
+            <strong>NBA ORGANIZATION</strong>
+            <span>NBA OFficial</span>
+            <span>NBA Careers</span>
+          </div>
+
+          <div class="copy-col">
+            <strong>NBA INTIATIVES</strong>
+            <span>NBA Cares</span>
+            <span>Jr.NBA</span>
+            <span>NBA Voices</span>
+            <span>NBA Fit</span>
+            <span>Hoops for Troops</span>
+          </div>
+
+          <div class="copy-col"> 
+            <strong>ACROSS THE LEAGUE</strong>
+            <span>NBA Communications</span>
+            <span>Lockervision</span>
+            <span>NBA Transactions</span>
+          </div>
+
+          <div class="copy-col copy-shop">
+            <strong>SHOP</strong>
+            <span>Global Stores</span>
+            <span>NYC Stores</span>
+            <span>NBA Auctions</span>
+            <span>NBA Photostore</span>
+          </div>
+
+
+          <div class="copy-col">
+            <strong>SUBSCRIPTION</strong>
+            <span>NBA TV</span>
+            <span>League Pass</span>
+          </div>
+        </div>
+        <hr>
+        <div class="copy-bottom">
+          <small>© 2021 NBA Media Ventures, LLC. All rights reserved.</small>
+        </div>
+
       </div>
     </div>
     
@@ -296,7 +362,6 @@ padding:0;
   content:"\a";
   white-space: pre;
 }
-
 .menuPic{
   position: absolute;
   width: 680px;
@@ -304,39 +369,108 @@ padding:0;
   box-shadow: 0 0 8px 8px black inset;
   right: 0;
 }
-
 .hero-menu{
   display: flex;
   bottom: 0;
   position: absolute;
   bottom: 10px;
-  
-  /* opacity: 0.3; */
 }
-
 .opa{
   opacity: 0.3;
   animation-duration: 3s;
 }
-
 .nopa{
   
 }
-
 .down-menu{
-  
   color: white;
   margin-right: 50px;
   cursor: pointer;
 }
-
 .down-menu:nth-of-type(1){
   margin-left: 50px;
 }
-
 .down-menu small:after {
   content:"\a";
   white-space: pre;
 }
+
+.main-leftside{
+  background-color: white;
+  border: solid black 1px;
+  width: 60%;
+  height: 275px;
+  top: 720px;
+  position: absolute;
+  color: white;
+  left:5%;
+}
+
+.main-rightside{
+  background-color: white;
+  border: solid black 1px;
+  width: 28%;
+  height: 275px;
+  top: 720px;
+  position: absolute;
+  color: white;
+  right:5%;
+}
+
+
+
+
+
+
+
+
+
+
+.bottom-copyright{
+  background-color: rgba(5,28,45);
+  width: 100%;
+  height: 275px;
+  top: 2500px;
+  position: absolute;
+  color: white;
+}
+.copy-top{
+  display: flex;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.copy-top span{
+  cursor: pointer;
+  display: flex;
+  margin-top: 10px;
+  font-size: 75%;
+
+}
+.copy-col{
+
+  margin-left: 100px;
+}
+.copy-shop{
+  margin-top: 10px;
+  margin-right: 300px;
+}
+.bottom-copyright hr{
+  width: 90%;
+  border: 0;
+  border-top: 1px solid grey;
+
+}
+.bottom-copyright small{
+  margin-top: 10px;
+  position: absolute;
+  left: 100px;
+}
+
+
+
+
+
+
+
 
 </style>
